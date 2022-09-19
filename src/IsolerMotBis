@@ -1,0 +1,51 @@
+/*
+import java.lang.reflect.Array;
+import java.util.*;
+class IsolerMot {
+    */
+/*public static String[] listWords(final String sentence){
+        return Arrays
+                .stream(sentence.split("\s"))
+                .distinct()
+                .toArray(String[]::new);
+    }*//*
+
+
+    static String[] IsolerMotBis(String phrase) {
+        StringTokenizer stringOK = new StringTokenizer(phrase);
+        // TODO Compter le nbr de mots
+
+        // TODO Tableau qui contient les mots
+        // Au max le tableau est de la dimension des mots de la phrase
+        ArrayList<String> tabMots;
+
+        // On parcourt les mots de la phrase et on les ajoute dans le tableau de mot, s'ils n'y sont pas.
+        while (stringOK.hasMoreTokens()) {
+            // TODO on récupère le mot
+            String mot;
+
+            Terminal.ecrireStringln("[" +mot+ "]");
+            // TODO on vérifie qu'il n'existe pas déjà pour le rajouter
+            if(!tabMots.contains(mot)){
+                tabMots.add(mot);
+            }
+        }
+
+        // On initialise un tableau de string
+        String[] t = new String[tabMots.size()];
+        // On y insert notre tableau de mots
+        tabMots.toArray(t);
+        // On retourne le tableau
+        return t;
+    }
+
+    public static void main(String[] args){
+
+        Terminal.ecrireStringln("Ecrire une phrase : ");
+        String p = Terminal.lireString();
+
+    }
+
+}
+*/
+
