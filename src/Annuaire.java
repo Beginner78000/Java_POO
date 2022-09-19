@@ -30,7 +30,7 @@ public class Annuaire {
                     hashmap.put(annuaire[j], String.valueOf(j));
                 }
                 Terminal.ecrireStringln(firstname + " "+ nom +" : "+ adresse +" / "+ tel);
-                
+
                 // use hashmap.keySet() for printing all keys of hashmap using its keySet() method
                 System.out.println(hashmap.keySet());
 

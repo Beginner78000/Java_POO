@@ -31,7 +31,7 @@ public class RomanNumber {
         int res = chiffreToInt(s.charAt(s.length()-1));
         int valprec = res;
         int valcour;
-        for (int i=s.length()-2; i>=0; i=i-1){
+        for (int i=s.length()-2; i>=0; i--){
             valcour = chiffreToInt(s.charAt(i));
             if (valcour >= valprec){
                 res = res + valcour;
