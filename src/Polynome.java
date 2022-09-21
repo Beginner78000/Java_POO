@@ -1,4 +1,7 @@
 class Polynome{
+    // On représente des polynômes au moyen d’un tableau d’entiers.
+    // Les entiers sont les coefficients,
+    // les degrés des facteurs étant représentés par les indices du tableau.
     int[] tab=new int[0];
     void affiche(){
         if (tab.length > 0){
@@ -45,7 +48,7 @@ class Polynome{
         return res;
     }
 }
-class Exo_14_4_bis{
+class Exo_4_4_bis{
     public static void main(String[] argv){
         Polynome p1=new Polynome();
         Polynome p2=new Polynome();
